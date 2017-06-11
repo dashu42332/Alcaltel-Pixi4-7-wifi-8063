@@ -1,0 +1,11 @@
+# ==============================================
+# MTK Policy Rule
+# ============
+
+# Date : 2014/1/8
+# Operation: SQC
+# Purpose: SVP task milestone and risk module
+allow system_server provision_file:dir {read write open ioctl add_name search remove_name};
+allow system_server provision_file:file {create read write open getattr unlink};
+allow system_server kisd:unix_stream_socket {connectto};
+allow system_server shell_exec:file {execute read open execute_no_trans};

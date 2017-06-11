@@ -1,0 +1,13 @@
+# ==============================================
+# MTK Policy Rule
+# ============
+
+# Date : WK15.15
+# Operation : Migration 
+# Purpose : set specific label for used raw partitions
+allow init block_device:blk_file relabelfrom;
+#add by zby
+allow init wmtWifi_device:chr_file write; 
+
+allow init proc_drop_caches:file { open write };
+

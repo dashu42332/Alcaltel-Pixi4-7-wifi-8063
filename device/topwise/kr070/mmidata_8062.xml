@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test_item>
+  
+<test_item id="1">  
+    <name>手机信息</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="2">  
+    <name>TP测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="3">  
+    <name>TP2测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="4">  
+    <name>TP0测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="5">  
+    <name>红绿蓝测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="6">  
+    <name>黑色测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="7">  
+    <name>灰色测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="8">  
+    <name>灰色渐变测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="9">  
+    <name>白色测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="10">  
+    <name>按键测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="11">  
+    <name>背光测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="12">  
+    <name>闪光灯测试</name>  
+    <is_display>false</is_display>  
+</test_item>  
+
+<test_item id="13">  
+    <name>听筒测试</name>  
+    <is_display>false</is_display>  
+</test_item>  
+
+<test_item id="14">  
+    <name>扬声器测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="15">  
+    <name>回声测试</name>  
+    <is_display>false</is_display>  
+</test_item> 
+
+<test_item id="16">  
+    <name>震动测试</name>  
+    <is_display>false</is_display>  
+</test_item>  
+
+<test_item id="17">  
+    <name>耳机测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="18">  
+    <name>充电测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="19">  
+    <name>光感测试</name>  
+    <is_display>false</is_display>  
+</test_item>  
+
+<test_item id="20">  
+    <name>近距离感应测试</name>  
+    <is_display>false</is_display>  
+</test_item>  
+
+<test_item id="21">  
+    <name>SIM测试</name>  
+    <is_display>false</is_display>  
+</test_item>  
+
+<test_item id="22">  
+    <name>SD存储卡测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="23">  
+    <name>电池温度测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="24">  
+    <name>蓝牙测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="25">  
+    <name>WIFI测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="26">  
+    <name>GPS测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="27">  
+    <name>电话拨打测试</name>  
+    <is_display>false</is_display>  
+</test_item> 
+
+<test_item id="28">  
+    <name>收音机测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="29">  
+    <name>主麦克风测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="30">  
+    <name>副麦克风测试</name>  
+    <is_display>false</is_display>  
+</test_item>  
+
+
+<test_item id="31">  
+    <name>后置摄像头</name>  
+    <is_display>true</is_display>  
+</test_item> 
+
+<test_item id="32">  
+    <name>重力传感器测试</name>  
+    <is_display>true</is_display>  
+</test_item>  
+
+<test_item id="33">  
+    <name>前置摄像头</name>  
+    <is_display>true</is_display>  
+</test_item> 
+
+<test_item id="34">  
+    <name>红外测试</name>  
+    <is_display>false</is_display>  
+</test_item> 
+
+<test_item id="35">  
+    <name>MHL测试</name>  
+    <is_display>false</is_display>  
+</test_item>  
+  
+<test_item id="36">  
+    <name>OTG测试</name>  
+    <is_display>false</is_display>  
+</test_item>  
+
+<test_item id="37">  
+    <name>TV测试</name>  
+    <is_display>false</is_display>  
+</test_item>  
+
+<test_item id="38">  
+    <name>HDMI测试</name>  
+    <is_display>false</is_display>  
+</test_item>
+<test_item id="39">  
+    <name>手机校准信息</name>  
+    <is_display>false</is_display>  
+</test_item>   
+
+</test_item>  

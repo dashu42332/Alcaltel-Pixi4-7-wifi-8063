@@ -1,0 +1,7 @@
+CUSTOM_MMI_PROJECT_NAME = 8262
+CUSTOM_HAL_IMGSENSOR = ov5670_mipi_raw gc5005_mipi_raw sp2508_mipi_raw ov5670b_mipi_raw sp2508b_mipi_raw
+CUSTOM_HAL_MAIN_IMGSENSOR = ov5670_mipi_raw ov5670b_mipi_raw gc5005_mipi_raw
+CUSTOM_HAL_SUB_IMGSENSOR = sp2508_mipi_raw sp2508b_mipi_raw
+CUSTOM_KERNEL_IMGSENSOR = ov5670_mipi_raw gc5005_mipi_raw sp2508_mipi_raw ov5670b_mipi_raw sp2508b_mipi_raw
+CUSTOM_KERNEL_MAIN_IMGSENSOR = ov5670_mipi_raw ov5670b_mipi_raw gc5005_mipi_raw
+CUSTOM_KERNEL_SUB_IMGSENSOR = sp2508_mipi_raw sp2508b_mipi_raw

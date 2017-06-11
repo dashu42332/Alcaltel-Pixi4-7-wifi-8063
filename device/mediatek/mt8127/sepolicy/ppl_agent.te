@@ -1,0 +1,6 @@
+# ==============================================
+# MTK Policy Rule
+# ============
+
+# for supporting mlc nand
+allow ppl_agent mtd_device:chr_file rw_file_perms;

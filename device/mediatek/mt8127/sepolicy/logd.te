@@ -1,0 +1,4 @@
+# ==============================================
+# MTK Policy Rule
+# ============
+allow logd self:capability dac_override;

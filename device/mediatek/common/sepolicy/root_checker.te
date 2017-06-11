@@ -1,0 +1,49 @@
+# ==============================================
+# Policy File of /system/binroot_checker Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type root_checker_exec , exec_type, file_type;
+type root_checker ,domain;
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+# permissive root_checker;
+init_daemon_domain(root_checker)
+# unconfined_domain(root_checker)
+
+allow root_checker block_device:dir search;
+allow root_checker nvram_device:chr_file { read write open };
+allow root_checker pro_info_device:chr_file { read write open ioctl };
+allow root_checker property_socket:sock_file write;
+
+allow root_checker init:unix_stream_socket connectto;
+#allow root_checker platformblk_device:blk_file { read write open };
+#allow root_checker platformblk_device:dir search;
+allow vold nvram_device:blk_file rw_file_perms;
+
+allow root_checker root_check_prop:property_service set;
+
+allow init nvram_device:chr_file write;
+allow init pro_info_device:chr_file write;
+allow init property_socket:sock_file write;
+
+allow root_checker mtd_device:dir search;
+allow root_checker mtd_device:chr_file { read write open };
+
+allow root_checker device:dir write;
+allow root_checker kmsg_device:chr_file write;
+allow root_checker nvram_data_file:dir search;
+
+allow root_checker kmsg_device:chr_file open;
+allow root_checker nvram_data_file:file read;
+#allow root_checker self:capability mknod;
+allow root_checker nvram_data_file:file open;
+
+allow root_checker mmcblk0_block_device:blk_file { read write open };
+allow root_checker nvram_data_file:file getattr;

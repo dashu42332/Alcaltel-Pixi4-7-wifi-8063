@@ -1,0 +1,25 @@
+# ==============================================
+# MTK Policy Rule
+# ============
+
+# Date : WK15.41
+# Operation : Migration
+# Purpose: for Camera preview feature, allow mediaserver to mkdir
+allow mediaserver nvram_data_file:dir { add_name write search create};
+
+# for supporting mlc nand
+allow mediaserver mtd_device:chr_file { read write open };
+allow mediaserver mtd_device:dir search;
+# svp support
+allow mediaserver mtee_device:chr_file { read write open ioctl };
+allow mediaserver bwc_prop:property_service set;
+
+#Add by sj.huang
+# Date : WK15.02.4
+# Operation : DRM SQC - read drm key
+# Purpose : To fix ALPS01901193,ALPS01901670
+allow mediaserver kisd:unix_stream_socket {connectto};
+
+# Purpose : subtitle feature need to w/r /mnt/subt/.
+allow mediaserver subtitle_data_file:dir { create open read write search add_name };
+allow mediaserver subtitle_data_file:file { create open read write setattr };

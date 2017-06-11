@@ -1,0 +1,7 @@
+# ==============================================
+# MTK Policy Rule
+# ============
+
+# for supporting mlc nand
+allow debuggerd mtd_device:chr_file { read write open };
+allow debuggerd mtd_device:dir search;

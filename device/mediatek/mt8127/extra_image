@@ -1,0 +1,2 @@
+#UBOOT	       out/target/product/mt8127_evbp1_v2/lk.bin
+#PRELOADER    out/target/product/mt8127_evbp1_v2/preloader.img

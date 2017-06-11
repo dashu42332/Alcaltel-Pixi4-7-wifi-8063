@@ -1,0 +1,7 @@
+# ==============================================
+# MTK Policy Rule
+# ============
+
+# for supporting mlc nand
+allow boot_logo_updater mtd_device:chr_file { open read };
+allow boot_logo_updater mtd_device:dir search;

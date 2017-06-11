@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- For HDMI begin -->
+    <add-resource type="string" name="hdmi_toggler"/>
+    <string name="hdmi_toggler">HDMI</string>
+    <add-resource type="string" name="hdmi_settings"/>
+    <string name="hdmi_settings">HDMI settings</string>
+    <add-resource type="string" name="hdmi_settings_summary"/>
+    <string name="hdmi_settings_summary">Click to configure HDMI</string>
+    <add-resource type="string" name="hdmi_video_resolution"/>
+    <string name="hdmi_video_resolution">Video resolution</string>
+    <add-resource type="string" name="hdmi_auto"/>
+    <string name="hdmi_auto">AUTO</string>
+
+<!-- Start of USB Storage Strings -->
+    <add-resource type="string" name="dlg_confirm_unmount_usb_title"/>
+    <string name="dlg_confirm_unmount_usb_title" product="default">Unmount USB storage?</string>
+    <add-resource type="string" name="dlg_confirm_unmount_usb_text"/>
+    <string name="dlg_confirm_unmount_usb_text" product="default">If you unmount the USB storage, some apps you are using will stop and may be unavailable until you remount the USB storage.</string>
+    <add-resource type="string" name="dlg_error_unmount_usb_title"/>
+    <string name="dlg_error_unmount_usb_title" product="default"></string>
+    <add-resource type="string" name="dlg_error_unmount_usb_text"/>
+    <string name="dlg_error_unmount_usb_text" product="default">Couldn\'t unmount USB storage. Try again later.</string>
+    <add-resource type="string" name="unmount_usb_inform_text"/>
+    <string name="unmount_usb_inform_text" product="default">USB storage will be unmounted.</string>
+    <add-resource type="string" name="usb_ums_title"/>
+    <string name="usb_ums_title">USB storage</string>
+    <add-resource type="string" name="usb_ums_summary"/>
+    <string name="usb_ums_summary">"XP recommended. Lets you transfer files between your computer and your Android device."</string>
+    <add-resource type="string" name="sd_eject_usbstorage"/>
+    <string name="sd_eject_usbstorage" product="default">Unmount USB storage</string>
+    <add-resource type="string" name="sd_eject_usbstorage_summary"/>
+    <string name="sd_eject_usbstorage_summary" product="default">Unmount USB storage so you can safely remove it</string>
+    <add-resource type="string" name="sd_mount_usbstorage"/>
+    <string name="sd_mount_usbstorage" product="default">Mount USB storage</string>
+    <add-resource type="string" name="sd_insert_usb_summary"/>
+    <string name="sd_insert_usb_summary" product="default">Insert USB storage for mounting</string>
+<!-- End of USB Storage Strings -->
+
+</resources>

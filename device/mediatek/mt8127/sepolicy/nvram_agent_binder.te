@@ -1,0 +1,6 @@
+# ==============================================
+# MTK Policy Rule
+# ============
+
+# for supporting mlc nand
+allow nvram_agent_binder mtd_device:chr_file rw_file_perms;

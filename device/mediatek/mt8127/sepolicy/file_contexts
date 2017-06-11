@@ -1,0 +1,20 @@
+##########################
+# Devices
+#
+/dev/trustzone u:object_r:mtee_device:s0
+/dev/mtk_ovl u:object_r:graphics_device:s0
+/system/bin/kisd u:object_r:kisd_exec:s0
+#/dev/kb u:object_r:keyblock_device:s0
+#/dev/dkb u:object_r:keyblock_device:s0
+/dev/kb u:object_r:kb_block_device:s0
+/dev/dkb u:object_r:dkb_block_device:s0
+
+/dev/block/mmcblk0p6 u:object_r:frp_block_device:s0
+/dev/block/mmcblk0p8 u:object_r:cache_block_device:s0
+/dev/block/mmcblk0p9 u:object_r:userdata_block_device:s0
+#/dev/block/mmcblk0 u:object_r:mmcblk0_block_device:s0
+/dev/block/mt_ftl_blk0_0   u:object_r:system_block_device:s0
+/dev/block/mt_ftl_blk1_0   u:object_r:userdata_block_device:s0
+
+#subtitle framework notify pixel data to Gallery apk  via /mnt/subt/xx.tmp file
+/mnt/subt(/.*)?  u:object_r:subtitle_data_file:s0

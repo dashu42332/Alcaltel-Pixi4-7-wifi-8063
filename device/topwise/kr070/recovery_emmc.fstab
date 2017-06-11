@@ -1,0 +1,9 @@
+boot       				  /boot       emmc      defaults        defaults
+emmc@cache      /cache      ext4      defaults        defaults
+emmc@usrdata      /data       ext4      defaults        defaults
+misc      				  /misc       emmc      defaults        defaults
+recovery  				  /recovery   emmc      defaults        defaults
+/dev/block/mmcblk0p4      /sdcard     vfat      defaults        defaults
+emmc@android      /system     ext4      defaults        defaults
+emmc@custom        /custom     ext4      defaults        defaults
+

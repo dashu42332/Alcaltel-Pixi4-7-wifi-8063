@@ -1,0 +1,1 @@
+ONFIG_CUSTOM_KERNEL_IMGSENSOR="ov5670_mipi_raw gc5005_mipi_raw sp2508_mipi_raw ov5670b_mipi_raw sp2508b_mipi_raw"

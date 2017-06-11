@@ -1,0 +1,9 @@
+# ==============================================
+# MTK Policy Rule
+# ============
+
+# for supporting mlc nand
+allow GoogleOtaBinder mtd_device:chr_file rw_file_perms;
+allow GoogleOtaBinder mtd_device:dir search;
+
+allow GoogleOtaBinder misc_device:chr_file ioctl;

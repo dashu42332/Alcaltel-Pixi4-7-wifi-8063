@@ -1,0 +1,8 @@
+# ==============================================
+# MTK Policy Rule
+# ============
+
+# for supporting mlc nand
+allow recovery mtd_device:chr_file *;
+allow recovery mtd_device:dir { search };
+allow recovery self:capability sys_resource;
